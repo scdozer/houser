@@ -1,0 +1,23 @@
+.Header {
+  background: #519872;
+  height: 50px;
+}
+.header-content{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.header-left span{
+  font-size: 24px;
+}
+
+.header-left span.bold{
+  font-weight: 700;
+}
+
+.header-right p{
+  margin: 0px;
+  color: #fff;
+}

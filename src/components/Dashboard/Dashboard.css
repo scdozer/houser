@@ -1,0 +1,7 @@
+.Dashboard{
+  width: 60%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #e2f3ea, #ffffff);
+  height: 100vh;
+  padding: 20px;
+}

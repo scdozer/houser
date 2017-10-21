@@ -31,7 +31,7 @@ module.exports = {
               session.user.username = newUser[0].username;
               session.user.id = newUser[0].id;
               // res.status(200).send(session.user);
-              res.status(200).send(newUser);
+              res.status(200).send(session.user);
             })
             .catch(err => {
               res.status(500).send(err);
